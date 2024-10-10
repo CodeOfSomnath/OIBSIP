@@ -41,7 +41,8 @@ public class GuessTheNumber {
         int numberOfGuess = 10;
 
         System.out.println("***** Welcome to Guessing Game ******");
-        System.out.println("You have to guess the computer generated number. Good Luck!");
+        System.out.println("You have to guess the computer generated number.");
+        System.out.printf("You have %d attempts for guessing the correct number.Good Luck!\n", numberOfGuess);
 
         Scanner sc = new Scanner(System.in);
         String op;
